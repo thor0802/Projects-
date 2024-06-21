@@ -1,0 +1,37 @@
+.navbar {
+  background-color: rgb(8, 64, 64);
+  padding: 15px;
+  top: 0;
+}
+a {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+  margin-left: 50px;
+}
+body {
+  margin: 0;
+}
+.float-right {
+  float: right;
+}
+.btn {
+  padding: 5px 10px 5px 10px;
+  border-radius: 20%;
+  font-size: medium;
+}
+.btn-primary {
+  background-color: rgba(30, 93, 132, 0.52);
+  color: white;
+  font-size: medium;
+}
+.btn-warning {
+  background-color: yellowgreen;
+  color: black;
+}
+.mtop {
+  margin-top: 1px;
+}
