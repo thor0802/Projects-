@@ -8,50 +8,96 @@
   </head>
   <body>
     <nav class="navbar">
-      <a href="index.html">HOME</a>
-      <a href="about.html">ABOUT</a>
-      <a href="history.html">HISTORY</a>
-      <a href="contact_us.html">CONTACT US</a>
-      <a href="#">MORE</a>
+      <button class="btn"><a href="index.html">HOME</a></button>
+      <button class="btn"><a href="about.html">ABOUT</a></button>
+      <button class="btn"><a href="history.html">HISTORY</a></button>
+      <button class="btn"><a href="contact_us.html">CONTACT US</a></button>
+      <button class="btn"><a href="#">MORE</a></button>
       <div class="float-right">
-        <a class="btn btn-primary" href="login"><b>LOGIN</b></a>
-        <a class="btn btn-warning" href="register"><b>REGISTER</b></a>
+        <button class="btn">
+          <a class="btn btn-primary" href="login"><b>LOGIN</b></a>
+        </button>
+        <button class="btn">
+          <a class="btn btn-warning" href="register"><b>REGISTER</b></a>
+        </button>
       </div>
     </nav>
     <div class="mtop">
-      <img width="100%" height="871px" src="./img/pic.jpg" alt="" />
+      <img width="100%" height="850px" src="./img/pic.jpg" alt="" />
+
+      <div class="row">
+        <div class="card col-4">
+          <img
+            class="img-responsive"
+            width="200px"
+            src="./img/html.png"
+            alt=""
+          />
+          <div>
+            <h2 class="text-center text-color1">HTML</h2>
+            <p>
+              <b>Description:</b> <br />
+              HyperText Markup Language (HTML) is the standard markup language
+              for documents designed to be displayed in a web browser...
+              <a class="see" href="https://en.wikipedia.org/wiki/HTML"
+                ><b
+                  ><i><u>READ MORE</u></i></b
+                ></a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card col-4">
+          <img class="img-responsive" src="./img/Css.png" alt="" />
+          <div>
+            <h2 class="text-center text-color2">CSS</h2>
+            <p>
+              <b>Description:</b><br />
+              Cascading Style Sheets (CSS) is a style sheet language used for
+              specifying the presentation and styling of a document written in a
+              markup language such as HTML or XML (including XML dialects such
+              as SVG, MathML or XHTML)...<a
+                class="see"
+                href="https://en.wikipedia.org/wiki/CSS"
+                ><b
+                  ><i><u>READ MORE</u></i></b
+                ></a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card col-4">
+          <img
+            class="img-responsive"
+            width="100%"
+            src="./img/python.png"
+            alt=""
+          />
+          <div>
+            <h2 class="text-center text-color3">PYTHON</h2>
+            <p>
+              <b>Description:</b><br />
+              Python is a high-level, general-purpose programming language. Its
+              design philosophy emphasizes code readability with the use of
+              significant indentation...
+              <a
+                class="see"
+                href="https://en.wikipedia.org/wiki/Python_(programming_language)"
+                ><b
+                  ><i><u>READ MORE</u></i></b
+                ></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <div class="card col-2">
-        <img width="200px" src="./img/html.png" alt="" />
-        <div>
-          <h2 class="text-center">HTML</h2>
-          <p>Description</p>
-          <a class="see" href="more"
-            ><b><i>READ MORE</i></b></a
-          >
-        </div>
-      </div>
-      <div class="card col-3">
-        <img width="100%" src="./img/Css.jpeg" alt="" />
-        <div>
-          <h2 class="text-center">CSS</h2>
-          <p>Description</p>
-          <a class="see" href="more"
-            ><b><i>READ MORE</i></b></a
-          >
-        </div>
-      </div>
-      <div class="card col-4">
-        <img width="100%" src="./img/python.png" alt="" />
-        <div>
-          <h2 class="text-center">PYTHON</h2>
-          <p>Description</p>
-          <a class="see" href="more"
-            ><b><i>READ MORE</i></b></a
-          >
-        </div>
-      </div>
-    </div>
+    <footer class="footer">
+      <p class="text-center text-white">
+        copyright@2024
+
+        <a class="text-primary text-white" href="#">Blog Project</a>
+      </p>
+    </footer>
   </body>
 </html>
