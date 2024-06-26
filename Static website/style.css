@@ -24,9 +24,10 @@ body {
   padding: 15px 15px;
   color: pink;
   background-color: black;
-  border: 5px solid(rgb(0, 0, 0));
+  border: 5px solid (rgb(0, 0, 0));
   border-radius: 10px;
   text-align: center;
+  cursor: pointer;
   /* transition-property: transform;
   transition-duration: 0.3s;
   transition-timing-function: ease;
@@ -34,7 +35,7 @@ body {
   transition: transform 0.3s, background-color 0.3s, color 0.3s;
 }
 .btn:hover {
-  transform: translateY(-10px);
+  transform: translateY(-8px);
   background-color: black;
   color: orangered;
 }
